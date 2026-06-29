@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Annotated
 # app = FastAPI()
+# Now github is ready for the code
 
 # name : str | None = None
 
