@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from typing import Annotated
 app = FastAPI()
 
+# array
 name : list[str] = []
 name.append("Abdullah")
 name.append("Sohail")
@@ -13,6 +14,14 @@ for i in range(1, 10):
     number.append(i)
 
 print(number)
+
+# set 
+num : set[int] = set()
+num.add(1)
+num.add(2)
+num.add(1)
+num.add(10)
+print(num)
 
 # name : str | None = None
 # print(name)
