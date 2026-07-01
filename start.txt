@@ -1,3 +1,14 @@
+// This is just for run the project
+
 source myenv/bin/activate
 uvicorn main:app --reload
+
+// This code is just upload the code on github
+
+git add .
+git commit -m "The detailes that I do today"
+git push
+
+
+// This is github tocken
 tocken : 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
